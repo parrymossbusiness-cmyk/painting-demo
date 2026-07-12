@@ -1,0 +1,18 @@
+# Allstar Painting
+
+> Allstar Painting is a residential painting company serving Little Rock, Arkansas. The site is a single-page marketing site describing services, service area, and how to request a quote.
+
+## Business
+- Name: Allstar Painting LLC
+- Phone: (501) 555-0142
+- Service area: Little Rock, Arkansas
+- Contact: Call or text (501) 555-0142, or submit the quote form at /#quote
+
+## Services
+- Interior painting
+- Exterior painting
+- Cabinet & trim painting
+- Drywall repair & surface prep
+
+## Pages
+- [Homepage](index.html): Overview of services, service area, customer reviews, FAQ, and quote request form.
