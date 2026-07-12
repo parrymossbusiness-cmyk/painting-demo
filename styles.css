@@ -144,7 +144,7 @@ h1 em, h2 em { color: var(--orange); font-style: normal; }
 .story { color: #fff; background: var(--cream); }
 .story-grid { display: grid; grid-template-columns: .85fr 1.15fr; min-height: 720px; }
 .story-visual { position: relative; min-height: 720px; }
-.story-visual > img { width: 100%; height: 100%; object-fit: cover; object-position: 40% center; }
+.story-visual > img { width: 100%; height: 100%; object-fit: cover; object-position: center center; }
 .story-stamp { position: absolute; right: -53px; bottom: 52px; width: 126px; height: 126px; display: grid; place-content: center; color: #fff; background: var(--orange); border: 4px solid #fff; border-radius: 50%; text-align: center; transform: rotate(-8deg); box-shadow: 0 10px 30px rgba(0,0,0,.18); }
 .story-stamp::before { content: ""; position: absolute; inset: 7px; border: 1px solid rgba(255,255,255,.5); border-radius: inherit; }
 .story-stamp strong { font-family: "Arial Narrow", Impact, sans-serif; font-size: 1.45rem; line-height: 1; }
