@@ -1,12 +1,13 @@
-# Allstar Painting
+# Mr Paint
 
-> Allstar Painting is a residential painting company serving Little Rock, Arkansas. The site is a single-page marketing site describing services, service area, and how to request a quote.
+> Mr Paint is a residential painting company serving Little Rock, Arkansas. The site is a single-page marketing site describing services, service area, and how to request a quote.
 
 ## Business
-- Name: Allstar Painting LLC
-- Phone: (501) 555-0142
+- Name: Mr Paint
+- Owner: Matthew Evans
+- Phone: (501) 551-4002
 - Service area: Little Rock, Arkansas
-- Contact: Call or text (501) 555-0142, or submit the quote form at /#quote
+- Contact: Call or text (501) 551-4002, or submit the quote form at /#quote
 
 ## Services
 - Interior painting

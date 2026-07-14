@@ -37,10 +37,11 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .nav-wrap { min-height: 76px; display: flex; align-items: center; justify-content: space-between; }
 .brand { display: inline-flex; align-items: center; gap: 10px; text-decoration: none; color: var(--ink-900); }
 .brand-icon { width: 44px; height: 36px; flex: 0 0 auto; fill: none; stroke: var(--orange); stroke-width: 2.6; stroke-linecap: round; stroke-linejoin: round; }
-.brand-word { font-family: "Arial Narrow", "Roboto Condensed", Impact, sans-serif; font-weight: 900; font-size: 1.9rem; letter-spacing: -.01em; text-transform: uppercase; line-height: 1; }
+.brand-word { font-family: "Arial Narrow", "Roboto Condensed", Impact, sans-serif; font-weight: 900; font-size: 3rem; letter-spacing: -.01em; text-transform: uppercase; line-height: 1; white-space: nowrap; }
 .brand-word em { color: var(--orange); font-style: normal; }
 .light-brand { color: #fff; }
 .light-brand .brand-icon { stroke: var(--orange); }
+.brand-logo { height: 150px; width: auto; display: block; mix-blend-mode: multiply; }
 .primary-nav { display: flex; align-items: center; gap: 31px; }
 .primary-nav > a:not(.button) { position: relative; text-decoration: none; font-size: .86rem; font-weight: 800; }
 .primary-nav > a:not(.button)::after { content: ""; position: absolute; right: 0; bottom: -7px; left: 0; height: 2px; background: var(--orange); transform: scaleX(0); transform-origin: left; transition: transform .22s ease; }
@@ -184,15 +185,21 @@ h1 em, h2 em { color: var(--orange); font-style: normal; }
 .review-card.orange { color: #fff; background: var(--orange); }
 .quote-mark { height: 48px; color: var(--orange); font-family: Georgia, serif; font-size: 4rem; line-height: .9; }
 .orange .quote-mark { color: #fff; }
-.review-card blockquote { margin: 20px 0 32px; font-family: Georgia, serif; font-size: 1.03rem; line-height: 1.7; }
+.review-stars { margin: 2px 0 0; color: #f5b400; font-size: .95rem; letter-spacing: 2px; }
+.orange .review-stars { color: #fff; }
+.review-card blockquote { margin: 14px 0 24px; font-family: Georgia, serif; font-size: 1.03rem; line-height: 1.7; }
+.review-tags { display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 24px; padding: 0; list-style: none; }
+.review-tags li { padding: 5px 11px; border-radius: 20px; background: rgba(20,28,31,.07); font-size: .66rem; font-weight: 800; letter-spacing: .01em; }
+.dark .review-tags li, .orange .review-tags li { background: rgba(255,255,255,.16); color: #fff; }
 .review-card figcaption { margin-top: auto; display: flex; align-items: center; gap: 12px; }
-.avatar { width: 38px; height: 38px; display: grid; place-items: center; color: #fff; background: var(--ink-700); border-radius: 50%; font-size: .67rem; font-weight: 900; }
+.avatar { width: 38px; height: 38px; flex: 0 0 auto; display: grid; place-items: center; color: #fff; background: var(--ink-700); border-radius: 50%; font-size: .67rem; font-weight: 900; }
 .dark .avatar { color: var(--ink-900); background: var(--cream); }
 .orange .avatar { color: var(--orange); background: #fff; }
 .review-card figcaption div { display: grid; }
 .review-card figcaption strong { font-size: .78rem; }
 .review-card figcaption small { color: #82888a; font-size: .65rem; }
 .dark figcaption small, .orange figcaption small { color: rgba(255,255,255,.7); }
+.review-meta { margin-top: 3px; }
 .google-review { margin-top: 3px; display: inline-flex; align-items: center; gap: 5px; }
 .google-review svg { width: 13px; height: 13px; flex: 0 0 auto; }
 
@@ -318,8 +325,9 @@ h1 em, h2 em { color: var(--orange); font-style: normal; }
   body { padding-bottom: 64px; }
   .topbar { display: none; }
   .nav-wrap { min-height: 68px; }
-  .brand-word { font-size: 1.5rem; }
+  .brand-word { font-size: 1.9rem; }
   .brand-icon { width: 36px; height: 29px; }
+  .brand-logo { height: 95px; }
   .hero-media img { height: 300px; object-position: center 25%; }
   .hero-copy { padding: 24px 24px 36px; }
   .hero h1 { font-size: clamp(3.2rem, 16vw, 4.45rem); }

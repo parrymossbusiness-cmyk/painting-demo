@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://allstarpainting-demo.pages.dev/sitemap.xml
+Sitemap: https://painting-demo.pages.dev/sitemap.xml
